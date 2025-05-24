@@ -9,14 +9,13 @@ import Toast from 'react-native-toast-message';
 import LoginScreen from './src/screens/LoginScreen';
 import RegisterScreen from './src/screens/RegisterScreen';
 import ReelsScreen from './src/screens/ReelScreen';
-import SplashScreen from './src/screens/SplashScreen'; // 🟣 Your animated one
-
+import SplashScreen from './src/screens/SplashScreen';
 const Stack = createStackNavigator();
 
 export default function App() {
   const [user, setUser] = useState(null);
   const [initializing, setInitializing] = useState(true);
-  const [showSplash, setShowSplash] = useState(true); // 👈 New state for Splash
+  const [showSplash, setShowSplash] = useState(true);
 
   useEffect(() => {
     // Simulate a delay for splash (optional, 2s in this case)

@@ -89,7 +89,7 @@ export const mockReelsData = [
         likes: '17.5K',
         comments: '230',
     },
-    // Keep going up to 50
+
 ];
 
 // To complete up to 50, here's a little helper:
