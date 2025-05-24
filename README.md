@@ -1,5 +1,5 @@
 #### Firebase is used or authentication ####
-### you can like watch and share reel ####
+### you can like watch and share reels ####
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
